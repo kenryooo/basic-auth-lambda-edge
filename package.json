@@ -1,0 +1,22 @@
+{
+  "name": "basic-auth-lambda-edge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dst/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack-cli --mode development && cd dst && zip bundle.zip bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "0.0.34",
+    "@types/ip": "0.0.30",
+    "awesome-typescript-loader": "^4.0.1",
+    "ip": "^1.1.5",
+    "typescript": "^2.8.1",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13"
+  }
+}
